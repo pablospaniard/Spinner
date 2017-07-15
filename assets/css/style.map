@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "../scss/style.css",
+	"sources": [
+		"../scss/style.scss"
+	],
+	"sourcesContent": [
+		"@keyframes spinner {\n  100% {\n    transform: rotate(3600deg);\n  }\n}\n\n.container {\n  margin: 0 auto;\n  text-align: center;\n  position: relative;\n  top: 50vh;\n  transform: translateY(-50%);\n  .spinner {\n    display: inline-block;\n    width: 100px;\n    height: 100px;\n    background: url('http://i.imgur.com/oSHLAzp.png') center center;\n    background-size: contain;\n    transform-origin: 50% 50%;\n    animation: spinner 3s infinite alternate ease-in-out;\n  }\n}\n"
+	],
+	"mappings": "AAAA,UAAU,CAAV,OAAU;EACR,AAAA,IAAI;IACF,SAAS,EAAE,eAAM;;;;;AAIrB,AAAA,UAAU,CAAC;EACT,MAAM,EAAE,MAAO;EACf,UAAU,EAAE,MAAO;EACnB,QAAQ,EAAE,QAAS;EACnB,GAAG,EAAE,IAAK;EACV,SAAS,EAAE,gBAAU;CAUtB;;;AAfD,AAME,UANQ,CAMR,QAAQ,CAAC;EACP,OAAO,EAAE,YAAa;EACtB,KAAK,EAAE,KAAM;EACb,MAAM,EAAE,KAAM;EACd,UAAU,EAAE,qCAAG,CAAmC,MAAM,CAAC,MAAM;EAC/D,eAAe,EAAE,OAAQ;EACzB,gBAAgB,EAAE,OAAQ;EAC1B,SAAS,EAAE,yCAA0C;CACtD",
+	"names": []
+}
