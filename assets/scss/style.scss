@@ -4,7 +4,8 @@
   }
 }
 
-$size: 400px;
+$size: 500px;
+$mobileSize: 300px;
 
 .container {
   margin: 0 auto;
@@ -31,4 +32,21 @@ $size: 400px;
     background-size: contain;
     content: '';
   }
+}
+
+
+@media only screen and (max-width: 520px){
+  .container {
+    .spinner {
+      width: $mobileSize;
+      height: $mobileSize;
+    }
+    .center-spinner {
+      margin-left: -$mobileSize;
+      width: $mobileSize;
+      height: $mobileSize;
+
+    }
+  }
+
 }
